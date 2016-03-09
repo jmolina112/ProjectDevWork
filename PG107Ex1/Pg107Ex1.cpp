@@ -2,6 +2,7 @@
 *	Jacinto Molina
 *	Game 2334
 *	Renders the bottom right corner of a bitmap being read from a file into the program.
+*	
 */
 
 #include <windows.h>
@@ -108,7 +109,7 @@ void Game_Run(HWND hwnd)
     //start rendering
     if (d3ddev->BeginScene())
     {
-		RECT rect;
+		RECT rect; 
 		rect.top = NULL;
 		rect.left = NULL;
 		rect.right = 950;
